@@ -30,27 +30,24 @@ External evidence sources used in the notebook:
 - Enrichr for pathway enrichment: https://maayanlab.cloud/Enrichr/
 
 ## Repository structure
-
-```text
 DIAMOnD-Alzheimers-Project/
+│
+├── DIAMOnD.py
+├── DIAMOnD_py3.py
+├── SE23UCAB010_DIAMOnD_Project.ipynb
 ├── README.md
 ├── requirements.txt
 ├── download_data.py
-├── code/
-│   ├── DIAMOnD.py
-│   └── DIAMOnD_py3.py
-├── notebooks/
-│   └── SE23UCAB010_DIAMOnD_Project.ipynb
-├── results/
-│   ├── alzheimer_diamond_alpha1.txt
-│   ├── alzheimer_diamond_alpha2.txt
-│   ├── alzheimer_diamond_alpha10.txt
-│   ├── DIAMOnD_Alpha10_All_Pathways.csv
-│   └── DIAMOnD_Alpha10_Significant_Pathways.csv
-└── figures/
-    ├── Alzheimer_DIAMOnD_OpenTargets_Top20.png
-    └── Alzheimer_Alpha_Validation_Comparison.png
-```
+│
+├── alzheimer_diamond_alpha1.txt
+├── alzheimer_diamond_alpha2.txt
+├── alzheimer_diamond_alpha10.txt
+│
+├── DIAMOnD_Alpha10_All_Pathways.csv
+├── DIAMOnD_Alpha10_Significant_Pathways.csv
+│
+├── Alzheimer_DIAMOnD_OpenTargets_Top20.png
+└── Alzheimer_Alpha_Validation_Comparison.png
 
 The `download_data.py` script downloads the original supplementary datasets and creates the prepared `PPI.txt` and `seed_genes.txt` input files. Raw data files do not need to be committed to GitHub.
 
