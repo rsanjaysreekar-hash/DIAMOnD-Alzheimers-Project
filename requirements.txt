@@ -1,0 +1,11 @@
+# Core analysis
+numpy
+scipy
+pandas
+networkx
+matplotlib
+
+# Notebook and external API analysis
+jupyter
+requests
+matplotlib-venn
